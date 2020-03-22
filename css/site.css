@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+#main {
+    width: 1000px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 200px;
+    position: absolute;
+
+}
+
+#piano {
+    display: flex;
+    background: #C858F0;
+    width: 1000px;
+    top: 0;
+    bottom: 35px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 200px;
+    position: absolute;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.knob {
+    width: 25px;
+    background: #5DF8E8;
+    height: 25px;
+    margin: -25px 10px;
+    border-radius: 15px;
+}
+
+.knob2 {
+    width: 100px;
+    background: #5DF8E8;
+    height: 25px;
+    margin: -25px 0 0px 765px;
+    border-radius: 15px;
+}
+
+.whiteKeys {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacer1, .spacer2, .spacer3, .spacer4 {
+    margin: 0;
+}
+
+.spacer1 {
+    margin-left: 15px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 175px;
+}
+
+.spacer2 {
+    margin-left: 35px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 225px;
+}
+
+.spacer3 {
+    margin-left: 40px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 165px;
+}
+
+.spacer4 {
+    margin-left: 35px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 240px;
+}
+
+.blackKeys{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    position: absolute;
+}
+
+button {
+    border: none;
+} 
+
+button:focus {
+    outline: 0;
+}
+
+button.white {
+    background: #ffffff;
+    padding: 26px;
+    border-radius: 5px;
+}
+
+button.black {
+    background: #000000;
+    border-color: #ffffff;
+    padding: 16px;
+    height: 115px;
+    border-radius: 0 0 5px 5px;
+}
+
+button.black > p {
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+button.white > p {
+    padding-top: 100px;
+}
+
+#pressed {
+    background: #1167b1;
+}
+
+#pressed > p {
+    color: white;
+}
+
+div.pink {
+    height: 50vh;
+    width: 100%;
+    background: #fec5e5
+}
+
+div.blue {
+    height: 50vh;
+    width: 100%;
+    background: #bfe7ff;
+}
+
+.signature {
+    text-align: center;
+    padding-top: 160px;
+    color: #C858F0;
+}
+
+.signature > p > a {
+    color: #C858F0;
+    text-decoration: none;
+}    
+
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 18px;
+    font-weight: 800;
+}
